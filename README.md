@@ -3,10 +3,13 @@
 ### <p align="center">☑️Profile☑️</p>
  
 <p align="center">
-🌃: 중앙대학교
-📠: 010-8507-1301
-✉️: cjy3458@naver.com
-📸: instagram - zza.__.lng
+목표가 같은 사람들과 상부상조하며 성장하길 바라는 예비 프론트엔드 개발자
+<br>
+<br>
+🌃 중앙대학교
+📠 010-8507-1301
+✉️ cjy3458@naver.com
+📸 instagram - zza.__.lng
 </p>
 
 <br>
