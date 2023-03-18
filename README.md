@@ -4,5 +4,5 @@
 
 ![소개_인사하는 사자](https://user-images.githubusercontent.com/81146131/221498526-e2db6afd-e36d-447c-ab58-58069793bedf.gif)
 
-
+.
 </div>
