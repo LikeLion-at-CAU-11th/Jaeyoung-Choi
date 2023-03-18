@@ -1,4 +1,4 @@
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?size=30&duration=4500&color=F77500&width=600&lines=%F0%9F%A6%81_Welcome_Jaeyoung_Choi_%F0%9F%A6%81+)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?size=30&duration=4500&color=000000&width=600&lines=%F0%9F%A6%81_Welcome_Jaeyoung_Choi_%F0%9F%A6%81+)](https://git.io/typing-svg)
 
 <div align="center">
 
@@ -6,3 +6,5 @@
 
 
 </div>
+
+..
