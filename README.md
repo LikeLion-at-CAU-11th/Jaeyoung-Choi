@@ -20,5 +20,7 @@
    <img src="https://img.shields.io/badge/html5-000000?style=for-the-badge&logo=html5&logoColor=white"> 
    <img src="https://img.shields.io/badge/javascript-000000?style=for-the-badge&logo=javascript&logoColor=white">
    <img src="https://img.shields.io/badge/css3-000000?style=for-the-badge&logo=css3&logoColor=white"> 
-   <img src="https://img.shields.io/badge/python-000000?style=for-the-badge&logo=python&logoColor=white"> 
+   <img src="https://img.shields.io/badge/python-000000?style=for-the-badge&logo=python&logoColor=white">
+   <img src="https://img.shields.io/badge/notion-000000?style=for-the-badge&logo=notion&logoColor=white">
+   <img src="https://img.shields.io/badge/discord-000000?style=for-the-badge&logo=discord&logoColor=white">   
 </div>
