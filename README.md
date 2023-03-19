@@ -32,5 +32,5 @@
    <img src="https://img.shields.io/badge/react-000000?style=for-the-badge&logo=react&logoColor=white"> 
    <img src="https://img.shields.io/badge/serverless-000000?style=for-the-badge&logo=serverless&logoColor=white">
    <img src="https://img.shields.io/badge/typescript-000000?style=for-the-badge&logo=typescript&logoColor=white"> 
-   <img src="https://img.shields.io/badge/nextjs-000000?style=for-the-badge&logo=nextjs&logoColor=white">  
+   <img src="https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=next.js&logoColor=white">  
 </div>
