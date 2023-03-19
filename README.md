@@ -26,7 +26,7 @@
    <img src="https://img.shields.io/badge/kakaotalk-000000?style=for-the-badge&logo=kakaotalk&logoColor=white">   
 </div>
 
-### <p align="center">👊🏿I will study...👊🏿</p>
+### <p align="center">🖤I will study...🖤</p>
 
 <p align="center">
    <img src="https://img.shields.io/badge/react-000000?style=for-the-badge&logo=react&logoColor=white"> 
