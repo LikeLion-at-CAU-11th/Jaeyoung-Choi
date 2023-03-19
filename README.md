@@ -14,7 +14,7 @@
 
 <br>
 
-### <p align="center">♠️Using♣️</p>
+### <p align="center">♠️I use...♠️</p>
 
 <p align="center">
    <img src="https://img.shields.io/badge/html5-000000?style=for-the-badge&logo=html5&logoColor=white"> 
@@ -24,4 +24,13 @@
    <img src="https://img.shields.io/badge/notion-000000?style=for-the-badge&logo=notion&logoColor=white">
    <img src="https://img.shields.io/badge/discord-000000?style=for-the-badge&logo=discord&logoColor=white">
    <img src="https://img.shields.io/badge/kakaotalk-000000?style=for-the-badge&logo=kakaotalk&logoColor=white">   
+</div>
+
+### <p align="center">👊🏿I will study...👊🏿</p>
+
+<p align="center">
+   <img src="https://img.shields.io/badge/react-000000?style=for-the-badge&logo=react&logoColor=white"> 
+   <img src="https://img.shields.io/badge/serverless-000000?style=for-the-badge&logo=serverless&logoColor=white">
+   <img src="https://img.shields.io/badge/typescript-000000?style=for-the-badge&logo=typescript&logoColor=white"> 
+   <img src="https://img.shields.io/badge/nextjs-000000?style=for-the-badge&logo=nextjs&logoColor=white">  
 </div>
