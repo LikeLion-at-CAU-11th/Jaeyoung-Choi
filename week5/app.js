@@ -14,7 +14,6 @@ const scissorsBtn = document.getElementById("scissors");
 const paperBtn = document.getElementById("paper");
 const resetBtn = document.getElementById("reset-button");
 const modeBtn = document.querySelector(".mode-button");
-let resultText = result.innerText;
 
 let mScore = 0;
 let cScore = 0;
@@ -96,11 +95,11 @@ function displayComChoice(result) {
 }
 
 function changeScore() {
-  if (resultText === "WIN") {
+  if (result.innerText === "WIN") {
     myScore.innerText =
       ++mScore; /*++를 변수 앞에다 쓰면 값을 미리 증가시키고 코드 실행 */
     comScore.innerText = --cScore;
-  } else if (resultText === "LOSE") {
+  } else if (result.innerText === "LOSE") {
     comScore.innerText = ++cScore;
     myScore.innerText = --mScore;
   }
@@ -116,19 +115,19 @@ function startGame(myChoice) {
     case "rs":
     case "sp":
     case "pr":
-      resultText = "WIN";
+      result.innerText = "WIN";
       break;
 
     case "rr":
     case "ss":
     case "pp":
-      resultText = "DRAW";
+      result.innerText = "DRAW";
       break;
 
     case "rp":
     case "sr":
     case "ps":
-      resultText = "LOSE";
+      result.innerText = "LOSE";
       break;
   }
 
