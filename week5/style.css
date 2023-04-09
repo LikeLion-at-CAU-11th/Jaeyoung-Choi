@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  font-family: "Delicious Handrawn";
+  font-size: 30px;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+#contents-wrapper {
+  width: 500px;
+  height: 500px;
+
+  border: black 4px solid;
+
+  border-radius: 20px;
+}
+
+.score-section {
+  align-items: center;
+  justify-content: space-evenly;
+  flex-basis: 20%; /*flex-direction을 .column으로 줬기 때문에 height가 설정됨*/
+}
+
+.display-section {
+  justify-content: space-evenly;
+  align-items: center;
+  height: 55%;
+  margin-bottom: 10%;
+}
+
+.button-section {
+  justify-content: center;
+  flex-basis: 25%;
+}
+
+.icon-container {
+  width: 100%;
+  height: 80px;
+  font-size: 80px;
+  text-align: center;
+}
+
+.button {
+  display: flex !important; /*!important를 통해 우선순위를 맨 앞으로 끌어온다.*/
+  justify-content: center;
+  align-items: center;
+
+  width: 70px;
+  height: 70px;
+
+  border: black 4px solid;
+  border-radius: 50%;
+  font-size: 60px;
+}
+
+.my-hand-text,
+.computer-hand-text {
+  width: 100%;
+  height: 80px;
+  text-align: center;
+}
+
+#reset-button {
+  margin-left: 30%;
+  font-size: 20px;
+  border-radius: 50%;
+  text-align: center;
+
+  padding: 3px;
+  background-color: black;
+  color: white;
+}
+
+button {
+  all: unset; /*버튼 설정에 있는 디폴트 값이 사라짐*/
+}
+
+.mode-button {
+  width: 20%;
+  border: none;
+  position: relative;
+  display: inline-block;
+  font-size: 22px;
+  padding: 20px 60px;
+  color: white;
+  margin: 20px 10px 10px;
+  border-radius: 6px;
+  text-align: center;
+  transition: top 0.01s linear;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+  margin-top: 3%;
+  font-family: "Delicious Handrawn";
+  font-size: 25px;
+  background-color: black;
+  box-shadow: 0 0 0 1px black inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset,
+    0 8px 0 0 black, 0 8px 0 1px rgba(0, 0, 0, 0.4),
+    0 8px 8px 1px rgba(0, 0, 0, 0.5);
+}
+
+.mode-button:active {
+  box-shadow: 0 0 0 1px black inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset,
+    0 0 0 1px rgba(0, 0, 0, 0.4);
+}
+
+.mode-button:hover {
+  background-color: black;
+}
+
+.pink {
+  text-shadow: 0 1px 0 rgb(222, 124, 140);
+  background-color: rgb(222, 124, 140);
+  box-shadow: 0 0 0 1px rgb(222, 124, 140) inset,
+    0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 8px 0 0 rgb(222, 124, 140),
+    0 8px 0 1px rgb(222, 124, 140), 0 8px 8px 1px rgb(222, 124, 140);
+}
+
+.pink:active {
+  box-shadow: 0 0 0 1px rgb(222, 124, 140) inset,
+    0 0 0 2px rgb(222, 124, 140) inset, 0 0 0 1px rgb(222, 124, 140);
+}
+
+.pink:hover {
+  background-color: rgb(222, 124, 140);
+}
