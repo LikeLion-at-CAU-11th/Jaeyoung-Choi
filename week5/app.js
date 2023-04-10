@@ -14,6 +14,7 @@ const scissorsBtn = document.getElementById("scissors");
 const paperBtn = document.getElementById("paper");
 const resetBtn = document.getElementById("reset-button");
 const modeBtn = document.querySelector(".mode-button");
+let resultText = result.innerText;
 
 let mScore = 0;
 let cScore = 0;
@@ -30,30 +31,35 @@ function changeMode() {
   let content = document.querySelector("#contents-wrapper");
   let reset = document.querySelector("#reset-button");
   let button = document.querySelectorAll(".button");
+  button = [...button]; /*nodelist를 array로 변경 */
 
   if (modeBtn.value == "Pink Mode") {
     body.style.backgroundColor = "pink";
     body.style.color = "white";
-    content.style.border = "white 4px solid";
+    // content.style.border = "white 4px solid";
+    button.push(content); /*array에 마지막에 요소를 추가 */
     button.forEach((b) => {
       b.style.border = "white 4px solid";
     }); /*앞에서 공부한 forEach */
     reset.style.backgroundColor = "white";
     reset.style.color = "pink";
     modeBtn.value = "Black Mode";
-    modeBtn.classList.add("pink");
+    // modeBtn.classList.add("pink");
   } else {
     body.style.backgroundColor = "white";
     body.style.color = "black";
-    content.style.border = "black 4px solid";
+    // content.style.border = "black 4px solid";
+    button.push(content);
     button.forEach((b) => {
       b.style.border = "black 4px solid";
     });
     reset.style.backgroundColor = "black";
     reset.style.color = "white";
     modeBtn.value = "Pink Mode";
-    modeBtn.classList.remove("pink");
+    // modeBtn.classList.remove("pink");
   }
+  modeBtn.classList.toggle("pink");
+  /* classList.toggle === add와 remove를 on/off 방식으로 class를 처리 */
 }
 
 function resetGame() {
@@ -64,14 +70,25 @@ function resetGame() {
   // window.location.reload(); 페이지를 새로고침 하는 코드
 }
 
-function displayMyChoice(e) {
-  let clickedBtn = e.currentTarget.id;
-  /*이벤트핸들러가 호출하는 객체에 대한 참조 */
-  let clickedIcon = e.target;
-  /*태그 자체를 의미 */
+// rockBtn.addEventListener("click", displayMyChoice);
+// scissorsBtn.addEventListener("click", displayMyChoice);
+// paperBtn.addEventListener("click", displayMyChoice);
 
-  myHandText.innerText = clickedBtn;
-  myHandIcon.className = clickedIcon.className;
+function displayMyChoice(e) {
+  let clickedBtn =
+    e.currentTarget.id; /*이벤트핸들러가 호출하는 객체에 대한 참조 */
+  let clickedIcon = e.target; /*태그 자체를 의미 */
+
+  /*console.log(clickedBtn); id 자체가 나오고 
+  console.log(clickedIcon); 코드 자체가 다 나옴 */
+
+  //   console.log(myHandText);
+  //   console.log(myHandIcon);
+
+  myHandText.innerText =
+    clickedBtn; /*안에 텍스트를 클릭한 버튼의 텍스트로 바꿔주는 함수 innerText */
+  myHandIcon.className =
+    clickedIcon.className; /*class를 클릭한 아이콘의 class로 변경 */
   myHandIcon.classList.remove("button");
   /*button을 클래스로 바꿔줬더니 button클래스가 들어가는 문제 발생 -> button클래스 삭제 */
   startGame(clickedBtn);
@@ -110,12 +127,12 @@ function startGame(myChoice) {
   const comChoiceText = error[0];
   const comChoiceIcon = error[1];
 
-  /*문자열 앞글자 비교(?)*/
+  /*문자열 제일 앞글자를 비교해서 비교하는 것 같은데 뭔 말인지 하나도 모르겠음  */
   switch (myChoice[0] + comChoiceText[0][0]) {
     case "rs":
     case "sp":
     case "pr":
-      result.innerText = "WIN";
+      result.innerText = "WIN"; /*옘병 내가 할 줄을 모르는듯 */
       break;
 
     case "rr":
