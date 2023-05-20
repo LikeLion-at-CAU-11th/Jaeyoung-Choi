@@ -1,0 +1,10 @@
+#buttonContainer {
+  display: flex;
+  gap: 10px;
+}
+
+#students {
+  display: flex;
+  background-color: #ffe650;
+  margin: 10px;
+}
