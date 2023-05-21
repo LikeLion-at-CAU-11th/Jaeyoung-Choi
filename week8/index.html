@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>백엔드와 함께</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="./script.css" />
+  </head>
+  <body>
+    <form id="guestbookForm">
+      <h1>방명록</h1>
+      <label for="writer">작성자🐝:</label>
+      <input type="text" id="writer" name="writer" required />
+      <br />
+      <label for="content">편지💌:</label>
+      <textarea id="content" name="content" required></textarea>
+      <br />
+      <button type="submit">작성하기</button>
+      <button onclick="getGuestbookList()">조회하기</button>
+      <!-- <button onclick="deleteAll()">전체삭제</button> -->
+      <script src="./script.js"></script>
+    </form>
+    <br />
+    <div id="guestbookContainer"></div>
+  </body>
+</html>
