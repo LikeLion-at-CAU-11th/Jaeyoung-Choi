@@ -31,11 +31,14 @@ const FilterButton = ({ title, type, setUserData, clickPage, setPage }) => {
 export default FilterButton;
 
 const Button = styled.div`
-  background-color: ${(props) =>
-    props.clicked ? "rgb(149, 101, 220)" : "white"};
-  color: ${(props) => (props.clicked ? "white" : "grey")};
+  &:hover {
+    background-color: rgb(149, 101, 220);
+    color: white;
+  }
   flex-basis: 13%;
   height: 70px;
+  background-color: whitesmoke;
+  color: gray;
   font-size: 20px;
   display: flex;
   justify-content: center;
