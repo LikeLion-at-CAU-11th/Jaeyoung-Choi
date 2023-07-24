@@ -59,20 +59,20 @@ const ModalDiv = styled.div`
 `;
 
 const ModalContent = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  display: grid;
   position: fixed;
   width: 400px;
   height: 300px;
-  top: 50%;
-  left: 50%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
   color: white;
-  transform: translate(-50%, -50%);
   background-color: ${(props) => props.mode};
   padding: 20px;
   border-radius: 8px;
-  z-index: 100;
+  z-index: 5;
 `;
 
 const ModalButton = styled.button`
