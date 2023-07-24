@@ -52,7 +52,6 @@ export const Input = styled.input`
     padding-left: 10px;
     position: relative;
     background: none;
-    z-index: 5;
     margin-bottom: 10%;
   }
 
